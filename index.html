@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClimateCloset</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-section">
+            <h1>ClimateCloset</h1>
+            <div class="location-search">
+                <input type="text" id="locationInput" placeholder="Enter location..." value="New York City">
+                <button id="searchBtn">Search</button>
+            </div>
+            <p class="error"></p>
+            <div id="temperatureCards" class="temperature-cards">
+                <!-- Card 1 -->
+                <div class="temperature-card selected">
+                    <h2></h2>
+                    <p></p>
+                    <img src="" alt="" class="weather-icon">
+                    <p class="date"></p>
+                </div>
+                <!-- Card 2 -->
+                <div class="temperature-card">
+                    <h2></h2>
+                    <p></p>
+                    <img src="" alt="" class="weather-icon">
+                    <p class="date"></p>
+                </div>
+                <!-- Card 3 -->
+                <div class="temperature-card">
+                    <h2></h2>
+                    <p></p>
+                    <img src="" alt="" class="weather-icon">
+                    <p class="date"></p>
+                </div>
+                <!-- Card 4 -->
+                <div class="temperature-card">
+                    <h2></h2>
+                    <p></p>
+                    <img src="" alt="" class="weather-icon">
+                    <p class="date"></p>
+                </div>
+                <!-- Card 5 -->
+                <div class="temperature-card">
+                    <h2></h2>
+                    <p></p>
+                    <img src="" alt="" class="weather-icon">
+                    <p class="date"></p>
+                </div>
+                <!-- Card 6 -->
+                <div class="temperature-card">
+                    <h2></h2>
+                    <p></p>
+                    <img src="" alt="" class="weather-icon">
+                    <p class="date"></p>
+                </div>
+            </div>
+        </div>
+        <div class="forecast-section">
+            <div class="slideshow-container">
+                <img src="images/below10-1.png" class="mySlides">
+                <img src="images/below-10-2.png" class="mySlides">
+            </div>
+            <br>
+            <div class="weather-info">
+                <h2>Weather Information</h2>
+                <p><strong class="range"></strong></p><br>
+                <p><strong>Clothing: </strong><span class="suggestions-clothing"></span></p><br>
+                <p><strong>Materials: </strong><span class="suggestions-materials"></span></p><br>
+                <p><span class="extra"></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
